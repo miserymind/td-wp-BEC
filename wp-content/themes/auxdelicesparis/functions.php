@@ -1,11 +1,6 @@
 <?php
 
-add_action( 'init', 'codex_patisserie_init' );
-/**
- * Register a book post type.
- *
- * @link http://codex.wordpress.org/Function_Reference/register_post_type
- */
+
 function codex_patisserie_init() {
     $labels = array(
         'name'               => _x( 'Pâtisseries', 'post type general name', 'your-plugin-textdomain' ),
@@ -41,9 +36,9 @@ function codex_patisserie_init() {
 
     register_post_type( 'patisserie', $args );
 }
+add_action( 'init', 'codex_patisserie_init' );
 
 
-add_action( 'init', 'codex_patissier_init' );
 function codex_patissier_init() {
     $labels = array(
         'name'               => _x( 'Pâtissiers', 'post type general name', 'your-plugin-textdomain' ),
@@ -79,6 +74,19 @@ function codex_patissier_init() {
 
     register_post_type( 'patissier', $args );
 }
+add_action( 'init', 'codex_patissier_init' );
 
 
+function add_menu_to_theme(){
+    add_theme_support('menus');
+    register_nav_menu('main_menu', 'Menu Principal');
+    register_nav_menu('footer', 'Menu Footer');
+}
+add_action( 'after_setup_theme', 'add_menu_to_theme' );
+
+
+function add_page_attribut() {
+    add_post_type_support( 'page', 'page-attributes' );
+}
+add_action('init', 'add_page_attribut');
 ?>

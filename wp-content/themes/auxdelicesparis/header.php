@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html <?php language_attributes(); ?>>
   <head>
 		<meta charset="UTF-8" />
 		<title>Aux délices de Paris</title>
@@ -9,35 +9,40 @@
         <meta name="description" content="Fullscreen Slit Slider with CSS3 and jQuery" />
         <meta name="keywords" content="slit slider, plugin, css3, transitions, jquery, fullscreen, autoplay" />
         <meta name="author" content="Codrops" />
-        <link rel="shortcut icon" href="../favicon.ico"> 
-		
+        <link rel="shortcut icon" href="../favicon.ico">
+        <!--Bootstrap-->
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.2/css/font-awesome.min.css" rel="stylesheet">
+        <!-- Less-->
+        <link rel="stylesheet/less" type="text/css" href="<?php bloginfo('template_url'); ?>/css/style.less" media="all" />
+        <script type='text/javascript' src="<?php bloginfo('template_url'); ?>/js/less-1.1.3.min.js"></script>
         <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/style.css" />
        
     </head>
-    <body>
 
-     
+    <body <?php body_class(); ?>>
+        <header>
+            <div class="container">
+                <div class="navbar">
+                    <div class="navbar-inner">
 
-	   <div class="blockblanc">
-      <div class="block-res-sociaux">
-        <a href="#"><img src="<?php bloginfo('template_url'); ?>/images/social-facebook.png" alt="facebook"/></a>
-        <a href="#"><img src="<?php bloginfo('template_url'); ?>/images/social-googleplus.png" alt="facebook"/></a>
-        <a href="#"><img src="<?php bloginfo('template_url'); ?>/images/social-twitter.png" alt="facebook"/></a>
-        
-  
+                        <?php
+                        wp_nav_menu(
+                            array(
+                                'theme_location'    => 'main_menu',
+                                'menu_class'        => 'nav',
+                                'container'         => false,
+                            )
+                        );
+                        ?>
 
-        </div>
+                    </div>
+                </div>
+                <div class="col-md-4"></div>
+                <div class="col-md-4 welcome">
+                    <?php the_field('acf_mot-header') ?>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
 
-       <img class="logo" src="<?php bloginfo('template_url'); ?>/images/" alt=""/>
-    </div>
-
-     <nav>
-      <ul id="menu_horizontal">
-      <li><a href="#">Accueil</a></li>
-    <li><a href="#">Concept</a></li>
-    <li><a href="#">Patisseries</a></li>
-    <li><a href="#">Nouveautés</a></li>
-    <li><a href="#">Tarifs</a></li>
-    <li><a href="#">Contact</a></li>
-    </ul>
-</nav>
+        </header>
