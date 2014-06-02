@@ -1,4 +1,3 @@
-
 html, body{
 	margin: auto;
 	background-color: #ffffff;
@@ -8,6 +7,95 @@ body{
 	background-color: #ffffff;
 	width: 100%;
 	height:100%;
+}
+
+nav{
+	margin-top: 15%;
+	margin-left: 20%;
+	color:#8e8e8e;
+	font-family: arial;
+}
+
+nav a{
+	color:#8e8e8e;
+	text-decoration: none;
+}
+/* Je sélectionne les <li> du menu horizontal */
+ul#menu_horizontal li { 
+display : inline;
+padding : 0 0.5em; /* Pour espacer les boutons entre eux */
+text-transform: uppercase;
+color:#8e8e8e;
+}
+ul#menu_horizontal {
+list-style-type : none; /* Car sinon les puces se placent n'importe où */
+}
+
+
+.block-res-sociaux{
+	padding:5px 5px 5px 30px;
+
+}
+
+.blockblanc{
+background-color:#ffffff;
+width:100%;
+height:64px;
+border-bottom: 1px dotted #e7e7e7;
+}
+
+
+.container{
+	width:1074px;
+	margin-left: auto;
+	margin-right: auto;
+
+	
+}
+
+.logo{
+	margin-left: 35%;
+	margin-top: 3%;
+	margin-right: auto;
+	width:318px;
+	height:118px;
+}
+
+
+h1{
+	font-family: Arial Narrow;
+	font-size:30px;
+	text-transform: uppercase;
+	font-weight: lighter;
+	color:#000000;
+	text-align: right;
+}
+
+h2{
+	font-family: Arial Narrow;
+	font-size:30px;
+	text-transform: uppercase;
+	font-weight: lighter;
+	color:#5e94aa;
+	text-align: right;
+}
+
+h3{
+	font-family: Arial Narrow;
+	font-size:30px;
+	color:#000000;
+	text-align: right;
+}
+
+h4{
+	font-family: Myriad Pro;
+	text-transform: uppercase;
+	font-weight: lighter;
+	font-style: italic;
+	font-size:15px;
+	color:#8d8d8d;
+	text-align: right;
+
 }
 
 
