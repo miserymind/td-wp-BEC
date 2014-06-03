@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4cab9d4-82df-43b5-8be6-92a377287e7e" name="Default" comment="Header/Footer/Less/Bootstrap">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/auxdelicesparis/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/auxdelicesparis/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/auxdelicesparis/css/style.less" afterPath="$PROJECT_DIR$/wp-content/themes/auxdelicesparis/css/style.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/auxdelicesparis/template-home.php" afterPath="$PROJECT_DIR$/wp-content/themes/auxdelicesparis/template-home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="C:\wamp\www\td-wp-BEC\wp-config - Copie.php" afterPath="" />
     </list>
     <ignored path="td-wp-BEC.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,19 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="wp-config.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="1013" selection-end="1013" vertical-scroll-proportion="-0.0" vertical-offset="476" max-vertical-offset="1768">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="functions.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/auxdelicesparis/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="2" selection-start="4484" selection-end="4484" vertical-scroll-proportion="-48.076923" vertical-offset="297" max-vertical-offset="1649">
+            <state line="91" column="2" selection-start="4484" selection-end="4484" vertical-scroll-proportion="0.0" vertical-offset="297" max-vertical-offset="1649">
               <folding />
             </state>
           </provider>
@@ -50,7 +37,7 @@
       <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/auxdelicesparis/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="11" selection-start="1338" selection-end="1338" vertical-scroll-proportion="-7.1923075" vertical-offset="187" max-vertical-offset="935">
+            <state line="22" column="11" selection-start="1336" selection-end="1336" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="935">
               <folding />
             </state>
           </provider>
@@ -59,16 +46,25 @@
       <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/auxdelicesparis/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="33" selection-start="960" selection-end="960" vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="646">
+            <state line="36" column="33" selection-start="960" selection-end="960" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="782">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.less" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/auxdelicesparis/css/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="26" selection-start="2058" selection-end="2058" vertical-scroll-proportion="0.48795182" vertical-offset="1104" max-vertical-offset="2091">
+            <state line="84" column="26" selection-start="2054" selection-end="2054" vertical-scroll-proportion="-6.352941" vertical-offset="1104" max-vertical-offset="2091">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wp-config.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="28" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.34542817" vertical-offset="0" max-vertical-offset="1496">
               <folding />
             </state>
           </provider>
@@ -77,7 +73,7 @@
       <file leaf-file-name="template-home.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/auxdelicesparis/template-home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="22" selection-start="778" selection-end="778" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="561">
+            <state line="21" column="22" selection-start="778" selection-end="778" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="595">
               <folding />
             </state>
           </provider>
@@ -111,6 +107,7 @@
         <option value="$PROJECT_DIR$/wp-content/themes/auxdelicesparis/template-home.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/auxdelicesparis/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/auxdelicesparis/css/style.less" />
+        <option value="$PROJECT_DIR$/wp-config - Copie.php" />
       </list>
     </option>
   </component>
@@ -147,6 +144,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -321,7 +319,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -330,8 +327,8 @@
     <property name="options.lastSelected" value="web-ide.project.structure" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -418,9 +415,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/wp-content/themes/auxdelicesparis/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="31" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="289">
-          <folding />
-        </state>
+        <state line="3" column="31" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="289" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/auxdelicesparis/functions.php">
@@ -439,16 +434,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1768">
-          <folding />
-        </state>
+        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfourteen/footer.php">
@@ -458,9 +444,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/auxdelicesparis/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="52" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
+        <state line="7" column="52" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfourteen/header.php">
@@ -475,49 +459,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/auxdelicesparis/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="406" selection-end="432" vertical-scroll-proportion="0.6181818" vertical-offset="0" max-vertical-offset="1819">
-          <folding />
-        </state>
+        <state line="26" column="0" selection-start="406" selection-end="432" vertical-scroll-proportion="0.6181818" vertical-offset="0" max-vertical-offset="1819" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/auxdelicesparis/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="33" selection-start="960" selection-end="960" vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="646">
+        <state line="36" column="33" selection-start="960" selection-end="960" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="782">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/auxdelicesparis/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="2" selection-start="4484" selection-end="4484" vertical-scroll-proportion="-48.076923" vertical-offset="297" max-vertical-offset="1649">
+        <state line="91" column="2" selection-start="4484" selection-end="4484" vertical-scroll-proportion="0.0" vertical-offset="297" max-vertical-offset="1649">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="715">
-          <folding />
-        </state>
+        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="715" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/auxdelicesparis/template-home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="22" selection-start="778" selection-end="778" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="561">
+        <state line="21" column="22" selection-start="778" selection-end="778" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="595">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/auxdelicesparis/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="11" selection-start="1338" selection-end="1338" vertical-scroll-proportion="-7.1923075" vertical-offset="187" max-vertical-offset="935">
+        <state line="22" column="11" selection-start="1336" selection-end="1336" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="935">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/auxdelicesparis/css/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="26" selection-start="2058" selection-end="2058" vertical-scroll-proportion="0.48795182" vertical-offset="1104" max-vertical-offset="2091">
+        <state line="84" column="26" selection-start="2054" selection-end="2054" vertical-scroll-proportion="-6.352941" vertical-offset="1104" max-vertical-offset="2091">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="28" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.34542817" vertical-offset="0" max-vertical-offset="1496">
           <folding />
         </state>
       </provider>
