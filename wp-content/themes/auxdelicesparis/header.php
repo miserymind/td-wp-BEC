@@ -38,11 +38,11 @@
 
                     </div>
                 </div>
-                <div class="col-md-4"></div>
-                <div class="col-md-4 welcome">
-                    <?php the_field('acf_mot-header') ?>
+                <div class="col-md-3"></div>
+                <div class="col-md-6 welcome">
+                    <?php the_field('mot_header') ?>
                 </div>
-                <div class="col-md-4"></div>
+                <div class="col-md-3"></div>
             </div>
 
         </header>
