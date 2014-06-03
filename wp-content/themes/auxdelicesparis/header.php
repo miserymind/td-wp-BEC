@@ -18,7 +18,7 @@
         <script type='text/javascript' src="<?php bloginfo('template_url'); ?>/js/less-1.1.3.min.js"></script>
         <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/style.css" />
         <!-- Font -->
-        <link href='http://fonts.googleapis.com/css?family=Devonshire' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
        
     </head>
 
