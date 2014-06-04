@@ -24,6 +24,11 @@
 
     <body <?php body_class(); ?>>
         <header>
+            <div class="cart">
+                <div class="container">
+                    <?php showCart(); ?>
+                </div>
+            </div>
             <div class="container">
                 <div class="navbar">
                     <div class="navbar-inner">

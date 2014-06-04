@@ -52,7 +52,17 @@ function add_page_attribut() {
 }
 add_action('init', 'add_page_attribut');
 
-
+function showCart() {
+    global $woocommerce; ?>
+    <li id="top-header"><span class="glyphicon glyphicon-shopping-cart"></span>
+<a class="cart-contents" href="<?php echo $woocommerce->cart->get_cart_url(); ?>" title="<?php _e('Ouvrir le panier', 'woothemes'); ?>">
+        <?php if($woocommerce->cart->cart_contents_count == 0) {
+            echo 'Le panier est vide';
+        }else{
+            echo sprintf(_n('%d article', '%d articles', $woocommerce->cart->cart_contents_count, 'woothemes'), $woocommerce->cart->cart_contents_count);?> - <?php echo $woocommerce->cart->get_cart_total();}?>
+        </a>
+    </li><?php
+    }
 
 ?>
 
