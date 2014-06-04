@@ -15,7 +15,7 @@
 
 get_header2(); ?>
 
-	<div id="primary" class="content-area">
+	<div id="primary"  class="content-area">
 		<div id="content" class="site-content" role="main">
 
 			<?php woocommerce_content(); ?>
