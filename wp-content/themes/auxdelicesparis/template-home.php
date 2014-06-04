@@ -24,6 +24,25 @@ get_header(); ?>
                     <p><?php the_field('le_concept') ?></p>
                 </div>
             </div>
+            <div class="patissiere">
+                <div class="container">
+                    <?php if ( have_posts() ) : ?>
+                        <h1 class="patOne">Les patissières.... sexy</h1>
+                        <h1 class="patTwo"><strong>&</strong> leurs recettes</h1>
+                        <div class="resumeAll">
+                            <?php 	$loop = new WP_Query( array( 'post_type' => 'patissier', 'posts_per_page' => 6) ); ?>
+                            <div class="resume col-md-12">
+                                <?php while ( $loop->have_posts() ) : $loop->the_post();?>
+                                    <div class="article col-md-4">
+                                        <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail()?></a>
+                                    </div>
+                                    <?php wp_reset_query(); ?>
+                                <?php endwhile; ?>
+                            </div>
+                        </div>
+                    <?php endif; ?>
+                </div>
+            </div>
         </div>
     </div>
 

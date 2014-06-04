@@ -40,6 +40,10 @@ html, body{
 	  Style
 -----------------*/
 
+body{
+  background: @blanc;
+}
+
 /*-------Navbar--------*/
 header{
   height: 100%;
@@ -95,8 +99,33 @@ header{
       margin-top: 75px;
     }
   }
+ .patissiere{
+   height: 100%;
+   background:url('../images/pat_bg.png');
+   background-attachment: fixed;
+   background-position: center center;
+   background-size: cover;
+   -webkit-background-size: cover; /* pour Chrome et Safari */
+   -moz-background-size: cover; /* pour Firefox */
+   -o-background-size: cover; /* pour Opera*/
+   .patOne{
+     color: @presqueMauve;
+     font-size: 60px;
+     text-align: center;
+     margin-bottom: 0;
+     padding-bottom: 0;
+   }
+   .patTwo{
+     color: @presqueMauve;
+     font-size: 90px;
+     text-align: center;
+     margin-top: 0;
+     strong{
+       font-size: 110px;
+     }
+   }
+ }
 }
-
 
 footer{
   height: 460px;
