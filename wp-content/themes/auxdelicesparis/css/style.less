@@ -183,6 +183,13 @@ footer{
 /* woocommerce */
 #content{
   background-color: #dce5e0;
+  .woocommerce-result-count {
+    display: none;
+  }
+  .woocommerce-ordering {
+    text-align: center;
+    padding: 30px 0;
+  }
   h1{
     font-size:30px;
     text-transform: uppercase;
@@ -190,6 +197,7 @@ footer{
     color:#000000;
     text-align: center;
     position:relative;
+    clear: both;
     .writingH1Concept();
     color: @presqueMauve;
     .woocommerce-result-count {
@@ -199,16 +207,34 @@ footer{
   
 }
 .products {
-  
+  text-align: center;
+  padding-bottom: 50px;
+  li {
+    display: inline-block;
+    padding: 10px 20px;
+    &:first-child {
+      margin-left:30px;
+    }
+    &:last-child {
+      margin-right: 30px;
+    }
+    .price {
+      float: left;
+      width: 100%;
+      margin: auto;
+      padding: 8px 0;
+    }
+  }
   h3 {
-    text-align: left;
-    margin-left:20%;
+    padding-top:8px;
+    text-align: center;
+    color: @presqueMauve;
   p {
       margin-left:20%;
     }
 
     }
       img{
-        margin-left:20%;
+        border-radius: 90px;
       }
 }
