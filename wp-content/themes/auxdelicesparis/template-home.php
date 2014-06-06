@@ -41,6 +41,38 @@ get_header(); ?>
                     <?php endif; ?>
                 </div>
             </div>
+            <div class="contact">
+                <div class="container">
+                    <h1 class="patOne">Tu veux contacter</h1>
+                    <h1 class="patTwo">les pâtissières ?</h1>
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                        <form>
+                            <div class="control-group">
+                                <div class="controls">
+                                    <input type="text" placeholder="Nom" class="input-large">
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="controls">
+                                    <input type="text" placeholder="Prénom">
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="controls">
+                                    <input type="email" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="controls">
+                                    <textarea placeholder="Message"></textarea>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn">Submit</button>
+                        </form>
+                    </idv>
+                </div>
+            </div>
         </div>
     </div>
 

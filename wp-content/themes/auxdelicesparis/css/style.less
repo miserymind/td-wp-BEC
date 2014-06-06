@@ -28,6 +28,7 @@ html, body{
 @grisFondConcept: #d8e0da;
 @rougeUnPeuBordeaux: #ca1919;
 @presqueMauve : #a20630;
+@autreSorteGris : #dce5e0;
 
 
 /*Font*/
@@ -179,10 +180,56 @@ footer{
   }
 }
 
+.contact{
+  padding-bottom: 100px;
+  .container{
+    .patOne{
+      color: @presqueMauve;
+      font-size: 60px;
+      text-align: center;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+    .patTwo{
+      color: @presqueMauve;
+      font-size: 90px;
+      text-align: center;
+      margin-top: 0;
+    }
+    form{
+      width: 100%;
+      margin-top: 30px;
+      input{
+        width: 100%;
+        margin-top: 20px;
+        height: 50px;
+        padding-left: 10px;
+        border-radius: 10px;
+        border: none;
+      }
+      textarea{
+        width: 100%;
+        margin-top: 20px;
+        height: 150px;
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+      }
+      button{
+        background: @pourpre;
+        color: @blanc;
+        margin-top: 20px;
+        float: right;
+      }
+    }
+  }
+}
+
 
 /* woocommerce */
 #content{
-  background-color: #dce5e0;
+  background: @autreSorteGris;
+  padding-top: 20px;
   .woocommerce-result-count {
     display: none;
   }
@@ -200,6 +247,7 @@ footer{
     clear: both;
     .writingH1Concept();
     color: @presqueMauve;
+    padding-top: 20px;
     .woocommerce-result-count {
       margin-left: 20%;
     }
@@ -209,32 +257,31 @@ footer{
 .products {
   text-align: center;
   padding-bottom: 50px;
-  li {
+  li{
     display: inline-block;
     padding: 10px 20px;
-    &:first-child {
+    &:first-child{
       margin-left:30px;
     }
-    &:last-child {
+    &:last-child{
       margin-right: 30px;
     }
-    .price {
+    .price{
       float: left;
       width: 100%;
       margin: auto;
       padding: 8px 0;
     }
   }
-  h3 {
+  h3{
     padding-top:8px;
     text-align: center;
     color: @presqueMauve;
-  p {
-      margin-left:20%;
-    }
-
-    }
-      img{
-        border-radius: 90px;
-      }
+  }
+  p{
+    margin-left:20%;
+  }
+  img{
+    border-radius: 50%;
+  }
 }
