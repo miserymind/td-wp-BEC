@@ -91,6 +91,4 @@ function get_header2( $name = null ) {
         load_template( ABSPATH . WPINC . '/theme-compat/header.php');
 }
 
-?>
-
 
