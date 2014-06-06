@@ -227,7 +227,7 @@ footer{
 
 
 .lesPatissiere{
-  padding-bottom: 100px;
+  padding: 50px;
   .patOne{
     color: @presqueMauve;
     font-size: 60px;
@@ -258,8 +258,62 @@ footer{
 
 /* woocommerce boutique*/
 #content{
-  background: @autreSorteGris;
   padding-top: 20px;
+  width:60%;
+  margin-left: 20%;
+  .entry-header{
+    background: none;
+    .entry-title{
+      text-transform: none;
+      padding-bottom: 30px;
+      padding-top: 0;
+    }
+  }
+  .entry-meta{
+    display: none;
+  }
+  .woocommerce{
+    .shop_table{
+      width: 100%;
+      .actions{
+        padding-top: 20px;
+        .coupon{
+          padding-bottom: 20px;
+        }
+      }
+    }
+    .cart-collaterals{
+      padding-top: 20px;
+      padding-bottom: 20px;
+      .cart_totals{
+        h2{
+          text-align: left;
+          padding-top: 20px;
+          padding-bottom: 20px;
+        }
+        tr{
+          padding-top: 10px;
+          padding-bottom: 10px;
+          height: 30px;
+          th{
+            width: 300px;
+          }
+        }
+      }
+      .shipping_calculator{
+        h2{
+          text-align: left;
+          padding-top: 50px;
+          padding-bottom: 20px;
+        }
+        p{
+          padding-top: 10px;
+          padding-bottom: 10px;
+          height: 45px;
+        }
+      }
+    }
+  }
   .woocommerce-result-count {
     display: none;
   }
@@ -269,7 +323,6 @@ footer{
   }
   h1{
     font-size:30px;
-    text-transform: uppercase;
     font-weight: lighter;
     color:#000000;
     text-align: center;
@@ -307,26 +360,19 @@ footer{
     padding-top:8px;
     text-align: center;
     color: @presqueMauve;
-<<<<<<< HEAD
-  p {
-      margin-left:20%;
-    }
-
-    }
-      img{
-        border-radius: 90px;
-      }
-}
-/* woocommerce panier/commande*/
-
-
-=======
   }
   p{
     margin-left:20%;
   }
   img{
-    border-radius: 50%;
+    border-radius: 90px;
   }
 }
->>>>>>> FETCH_HEAD
+/* woocommerce panier/commande*/
+.entry-header{
+  background: none;
+  .entry-title{
+    text-transform: none;
+    padding-bottom: 30px;
+  }
+}

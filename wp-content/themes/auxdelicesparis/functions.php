@@ -90,10 +90,3 @@ function get_header2( $name = null ) {
     if ('' == locate_template($templates, true))
         load_template( ABSPATH . WPINC . '/theme-compat/header.php');
 }
-<<<<<<< HEAD
-=======
-remove_filter( 'woocommerce_show_page_title', true )
-?>
->>>>>>> FETCH_HEAD
-
-

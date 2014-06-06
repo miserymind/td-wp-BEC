@@ -3,7 +3,7 @@
 Template Name: Les Pâtissières
 */
 
-get_header(); ?>
+get_header2(); ?>
 
 <div class="row">
         <div class="lesPatissiere">
