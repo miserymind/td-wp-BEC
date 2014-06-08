@@ -117,7 +117,6 @@ header, .header2 {
     p{
       text-align: justify;
       color: @presqueTurquoise;
-      margin-top: 75px;
       padding-bottom: 100px;
     }
   }
@@ -154,6 +153,50 @@ header, .header2 {
      margin-right: auto
    }
  }
+  .contact{
+    padding-bottom: 100px;
+    .container{
+      .patOne{
+        color: @presqueMauve;
+        font-size: 60px;
+        text-align: center;
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+      .patTwo{
+        color: @presqueMauve;
+        font-size: 90px;
+        text-align: center;
+        margin-top: 0;
+      }
+      form{
+        width: 100%;
+        margin-top: 30px;
+        input{
+          width: 100%;
+          margin-top: 20px;
+          height: 50px;
+          padding-left: 10px;
+          border-radius: 10px;
+          border: none;
+        }
+        textarea{
+          width: 100%;
+          margin-top: 20px;
+          height: 150px;
+          padding: 10px;
+          border-radius: 10px;
+          border: none;
+        }
+        button{
+          background: @pourpre;
+          color: @blanc;
+          margin-top: 20px;
+          float: right;
+        }
+      }
+    }
+  }
 }
 
 footer{
@@ -179,52 +222,6 @@ footer{
     }
   }
 }
-
-.contact{
-  padding-bottom: 100px;
-  .container{
-    .patOne{
-      color: @presqueMauve;
-      font-size: 60px;
-      text-align: center;
-      margin-bottom: 0;
-      padding-bottom: 0;
-    }
-    .patTwo{
-      color: @presqueMauve;
-      font-size: 90px;
-      text-align: center;
-      margin-top: 0;
-    }
-    form{
-      width: 100%;
-      margin-top: 30px;
-      input{
-        width: 100%;
-        margin-top: 20px;
-        height: 50px;
-        padding-left: 10px;
-        border-radius: 10px;
-        border: none;
-      }
-      textarea{
-        width: 100%;
-        margin-top: 20px;
-        height: 150px;
-        padding: 10px;
-        border-radius: 10px;
-        border: none;
-      }
-      button{
-        background: @pourpre;
-        color: @blanc;
-        margin-top: 20px;
-        float: right;
-      }
-    }
-  }
-}
-
 
 .lesPatissiere{
   padding: 50px;
@@ -337,6 +334,7 @@ footer{
   }
   
 }
+
 .products {
   text-align: center;
   padding-bottom: 50px;
@@ -395,29 +393,111 @@ footer{
     }
 }
 
-@media only screen and (max-width:360px){
-    .homepage .concept h1 {
-      font-size: 50px;
-    }
+@media only screen and (max-width:420px){
 
-    .homepage .patissiere .patOne, .contact .container .patOne {
+  header, .header2 {
+    .nav{
+      width: 100%;
+      margin-top: 30px;
+      .menu-item{
+        margin-top: 30px;
+        width: 100% !important;
+        float: none !important;
+        display: inline;
+        a{
+          text-align: center;
+          color: @pourpre;
+          text-transform: uppercase;
+          font-size: 20px;
+        }
+      }
+    }
+    .welcome{
+      display: none;
+    }
+  }
+
+    .homepage .concept h1 {
       font-size: 30px;
     }
 
-    .homepage .patissiere .patTwo, .contact .container .patTwo {
+    .patOne{
+      font-size: 30px;
+    }
+
+    .patTwo{
       font-size: 40px;
+      strong {
+        font-size: 50px;
+      }
     }
 
-    .homepage .patissiere .patTwo strong {
-      font-size: 60px;
+  .homepage{
+    .concept{
+      h1{
+        font-size: 50px;
+      }
     }
+    .patissiere{
+      .patOne{
+        font-size: 30px;
+      }
+      .patTwo{
+        font-size: 40px;
+        strong{
+          font-size: 50px;
+        }
+      }
+    }
+    .contact{
+      .container{
+        .patOne{
+          font-size: 30px;
+        }
+        .patTwo{
+          font-size: 40px;
+        }
+        form{
+          button{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
 
-    header .nav .menu-item a, .header2 .nav .menu-item a {
-      font-size: 15px;
-    }
 
-    header .nav .menu-item, .header2 .nav .menu-item {
-      margin-top: 30px;
-      width: 100%;
+  .lesPatissiere{
+    .patOne{
+      font-size: 30px;
     }
+    .patTwo{
+      font-size: 40px;
+      strong{
+        font-size: 50px;
+      }
+    }
+  }
+  
+  #content{
+    width:100%;
+    margin: 0;
+    .entry-header{
+      background: none;
+    }
+    .woocommerce{
+      .shop_table{
+        width: 98%;
+        .cart_item{
+          .product-quantity{
+            .quantity{
+              input{
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
