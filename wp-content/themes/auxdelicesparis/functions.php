@@ -90,3 +90,80 @@ function get_header2( $name = null ) {
     if ('' == locate_template($templates, true))
         load_template( ABSPATH . WPINC . '/theme-compat/header.php');
 }
+
+if(function_exists("register_field_group"))
+{
+    register_field_group(array (
+        'id' => 'acf_le-concept',
+        'title' => 'Le Concept',
+        'fields' => array (
+            array (
+                'key' => 'field_538d7fe703ee2',
+                'label' => 'Le concept',
+                'name' => 'le_concept',
+                'type' => 'textarea',
+                'required' => 1,
+                'default_value' => '',
+                'placeholder' => '',
+                'maxlength' => '',
+                'rows' => '',
+                'formatting' => 'br',
+            ),
+        ),
+        'location' => array (
+            array (
+                array (
+                    'param' => 'page_template',
+                    'operator' => '==',
+                    'value' => 'template-home.php',
+                    'order_no' => 0,
+                    'group_no' => 0,
+                ),
+            ),
+        ),
+        'options' => array (
+            'position' => 'normal',
+            'layout' => 'no_box',
+            'hide_on_screen' => array (
+                0 => 'the_content',
+            ),
+        ),
+        'menu_order' => 0,
+    ));
+    register_field_group(array (
+        'id' => 'acf_mot-header',
+        'title' => 'Mot Header',
+        'fields' => array (
+            array (
+                'key' => 'field_538d6fe34c49b',
+                'label' => 'Mot Header',
+                'name' => 'mot_header',
+                'type' => 'textarea',
+                'default_value' => '',
+                'placeholder' => '',
+                'maxlength' => '',
+                'rows' => '',
+                'formatting' => 'br',
+            ),
+        ),
+        'location' => array (
+            array (
+                array (
+                    'param' => 'page_template',
+                    'operator' => '==',
+                    'value' => 'template-home.php',
+                    'order_no' => 0,
+                    'group_no' => 0,
+                ),
+            ),
+        ),
+        'options' => array (
+            'position' => 'normal',
+            'layout' => 'default',
+            'hide_on_screen' => array (
+                0 => 'the_content',
+            ),
+        ),
+        'menu_order' => 0,
+    ));
+}
