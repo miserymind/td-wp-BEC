@@ -1,5 +1,6 @@
 <?php
 
+include_once('advanced-custom-fields/acf.php');
 
 function codex_patissier_init() {
     $labels = array(
