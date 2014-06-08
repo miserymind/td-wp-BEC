@@ -376,3 +376,48 @@ footer{
     padding-bottom: 30px;
   }
 }
+
+/**********************************************
+                  RESPONSIVE
+**********************************************/
+
+@media only screen and (max-width:980px){
+    .container {
+      width: 90% !important;
+    }
+
+    header {
+      height: 50%;
+    }
+
+    footer .containerFooter .nav .menu-item a {
+      line-height: 20px;
+    }
+}
+
+@media only screen and (max-width:360px){
+    .homepage .concept h1 {
+      font-size: 50px;
+    }
+
+    .homepage .patissiere .patOne, .contact .container .patOne {
+      font-size: 30px;
+    }
+
+    .homepage .patissiere .patTwo, .contact .container .patTwo {
+      font-size: 40px;
+    }
+
+    .homepage .patissiere .patTwo strong {
+      font-size: 60px;
+    }
+
+    header .nav .menu-item a, .header2 .nav .menu-item a {
+      font-size: 15px;
+    }
+
+    header .nav .menu-item, .header2 .nav .menu-item {
+      margin-top: 30px;
+      width: 100%;
+    }
+}
